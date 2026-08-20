@@ -1,0 +1,13 @@
+interface:
+  display_name: "Project State Governor"
+  short_description: "Keeps canonical project state accurate across sessions."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+  default_prompt: "Use $project-state-governor to reconcile this repository's durable project state and identify the verified next step."
+policy:
+  products:
+    - "chatgpt"
+    - "codex"
+    - "api"
+    - "atlas"
+  allow_implicit_invocation: true
