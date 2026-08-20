@@ -2,6 +2,8 @@
 
 [简体中文](README.zh-CN.md)
 
+[![Install with skills.sh](https://skills.sh/b/ghost011118/project-state-governor)](https://skills.sh/ghost011118/project-state-governor)
+
 **Stop losing project truth between agent sessions.**
 
 Project State Governor is an agent skill for maintaining a small, evidence-backed source of truth across conversations, branches, implementation cycles, reviews, and research. It helps an agent distinguish current state from historical notes, verify completion claims, preserve important negative evidence, and keep project documentation from turning into a pile of stale status files.

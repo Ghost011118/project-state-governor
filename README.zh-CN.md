@@ -2,6 +2,8 @@
 
 [English](README.md)
 
+[![使用 skills.sh 安装](https://skills.sh/b/ghost011118/project-state-governor)](https://skills.sh/ghost011118/project-state-governor)
+
 **别再让项目真相丢失在一次次 Agent 会话之间。**
 
 Project State Governor 是一个面向长期项目的 Agent Skill，用于在多轮会话、多分支、开发周期、审查和研究迭代之间维护精简、可核验、可持续更新的项目事实源。它帮助 Agent 区分当前状态与历史记录，核实完成声明，保留有价值的负面证据，并阻止项目文档演变成大量过期的状态文件。
