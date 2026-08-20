@@ -2,6 +2,13 @@
 
 All notable public changes to Project State Governor are documented here.
 
+## [1.0.1] - 2026-08-20
+
+### Fixed
+
+- Require the complete applicable `AGENTS.md` chain before inspecting or mutating nested cleanup targets.
+- Add `DONE` and `CANCELLED` to the canonical task-state schema and define terminal-record consolidation.
+
 ## [1.0.0] - 2026-08-20
 
 ### Added
