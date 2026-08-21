@@ -2,6 +2,13 @@
 
 All notable public changes to Project State Governor are documented here.
 
+## [Unreleased]
+
+### Fixed
+
+- Preserve terminal `COMPLETED` and `CANCELLED` workstream transitions in the canonical schema and consolidation guidance.
+- Put applicable legal, authorization, non-waivable security/safety, and objective constraints outside the owner-mutable evidence hierarchy.
+
 ## [1.0.1] - 2026-08-20
 
 ### Fixed

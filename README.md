@@ -25,6 +25,7 @@ Project State Governor gives the agent a durable operating model:
 - Reconstructs current project state from requirements, contracts, Git, code, tests, and documentation.
 - Classifies missions, workstreams, milestones, tasks, research hypotheses, decisions, constraints, blockers, and lessons.
 - Separates session completion from task, milestone, workstream, and mission completion.
+- Preserves verified `COMPLETED` and `CANCELLED` workstream transitions until their details can be safely compressed into decision-relevant history.
 - Reconciles contradictory documents without treating old AI output as truth.
 - Preserves expensive negative evidence so failed directions are not repeated.
 - Consolidates stale or duplicate state while keeping Git as the historical archive.
@@ -127,6 +128,11 @@ AGENTS.md
 The files form one canonical state system. The goal is not maximum documentation; it is the minimum sufficient, high-confidence project knowledge a fresh agent needs.
 
 ## Core safety boundaries
+
+Owner and product decisions remain inside applicable law, actual authorization
+boundaries, non-waivable security or safety constraints, and objective facts.
+The skill verifies that a claimed hard constraint is real and applicable rather
+than elevating convention, preference, or speculation into one.
 
 Project State Governor does not autonomously:
 
