@@ -4,6 +4,14 @@ All notable public changes to Project State Governor are documented here.
 
 ## [Unreleased]
 
+## [1.0.3] - 2026-08-24
+
+### Fixed
+
+- Apply complete candidate-directory and recursive nested `AGENTS.md` discovery in the routed reconstruction workflow.
+- Preserve verified terminal task and workstream transitions explicitly in scaled-mode `STATE.md`.
+- Preserve the existing lifecycle status when a completion claim lacks sufficient verification instead of inventing an `ACTIVE` or `BLOCKED` transition.
+
 ## [1.0.2] - 2026-08-24
 
 ### Fixed
