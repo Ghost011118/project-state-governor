@@ -4,8 +4,12 @@ All notable public changes to Project State Governor are documented here.
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-08-24
+
 ### Fixed
 
+- Include an existing candidate directory itself, plus every nested instruction file for recursive operations, when resolving applicable `AGENTS.md` rules.
+- Add `PAUSED` to the canonical milestone lifecycle so paused work is not misreported as blocked or deferred.
 - Preserve terminal `COMPLETED` and `CANCELLED` workstream transitions in the canonical schema and consolidation guidance.
 - Put applicable legal, authorization, non-waivable security/safety, and objective constraints outside the owner-mutable evidence hierarchy.
 
