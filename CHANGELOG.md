@@ -4,6 +4,12 @@ All notable public changes to Project State Governor are documented here.
 
 ## [Unreleased]
 
+## [1.0.4] - 2026-08-24
+
+### Added
+
+- Add a worked compact-state example showing evidence classification, status preservation, and the verification gate before `DONE`.
+
 ## [1.0.3] - 2026-08-24
 
 ### Fixed
