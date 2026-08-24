@@ -25,7 +25,7 @@ Project State Governor gives the agent a durable operating model:
 - Reconstructs current project state from requirements, contracts, Git, code, tests, and documentation.
 - Classifies missions, workstreams, milestones, tasks, research hypotheses, decisions, constraints, blockers, and lessons.
 - Separates session completion from task, milestone, workstream, and mission completion.
-- Preserves verified `COMPLETED` and `CANCELLED` workstream transitions until their details can be safely compressed into decision-relevant history.
+- Preserves verified terminal workstream and task transitions in compact and scaled state until their details can be safely compressed into decision-relevant history.
 - Reconciles contradictory documents without treating old AI output as truth.
 - Preserves expensive negative evidence so failed directions are not repeated.
 - Consolidates stale or duplicate state while keeping Git as the historical archive.
