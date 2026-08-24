@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-[![使用 skills.sh 安装](https://skills.sh/b/ghost011118/project-state-governor)](https://skills.sh/ghost011118/project-state-governor)
+[![使用 skills.sh 安装](https://skills.sh/b/ghost011118/project-state-governor)](https://skills.sh/ghost011118/project-state-governor/project-state-governor)
 
 **别再让项目真相丢失在一次次 Agent 会话之间。**
 

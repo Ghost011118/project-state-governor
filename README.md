@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-CN.md)
 
-[![Install with skills.sh](https://skills.sh/b/ghost011118/project-state-governor)](https://skills.sh/ghost011118/project-state-governor)
+[![Install with skills.sh](https://skills.sh/b/ghost011118/project-state-governor)](https://skills.sh/ghost011118/project-state-governor/project-state-governor)
 
 **Stop losing project truth between agent sessions.**
 
