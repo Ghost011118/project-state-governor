@@ -4,6 +4,10 @@ All notable public changes to Project State Governor are documented here.
 
 ## [Unreleased]
 
+### Fixed
+
+- Align workstream completion with `COMPLETED` and retain the `CANCELLED` milestone lifecycle state in the canonical schema.
+
 ## [1.0.4] - 2026-08-24
 
 ### Added
